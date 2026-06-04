@@ -1,4 +1,5 @@
 # random-cosmere-reading-order
+Do you love the Cosmere? Are you tired of re-reading it over and over again? This program is for you! With this program you can generate a "machete" reading order that will order every chapter in the cosmere in a random order for you to read. Experience the Cosmere like never before with this new, fresh reading order generator! Every reading order is different! It's just like gambli--I mean, just like rolling dice!
 This program has three modes: First Chapter Random, Random Equal Weight, and True Random (still working on the names).
 ## First Chapter Random
 Every version of the program operates on the same loop: pick a random chapter from the Cosmere, write it to the end of the output file, and repeat. The difference lies in how each version picks the random chapter.
