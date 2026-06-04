@@ -15,6 +15,8 @@ To use Random Equal Weight, open random_cosmere.py (the same one from FCR) and c
 As the name suggests, this version is truly random. Any chapter can appear at any point in the reading order. This is because, rather than randomly selecting from a list of books, this program randomly selects from every chapter in the Cosmere. You can find that full list in cosmere_chapters.json. Don't ask me how long it took to write that file. Just know that I did it completely without AI.
 ### How to Use
 All you need to do is run true_random_cosmere.py. No configuration. Then check output.txt.
+## Known Issues
+When you run First Chapter Random or Random Equal Weight, to my knowledge the resulting output.txt file is 1,421 lines long. When you run True Random, however, the file is only 1,418 lines long. This implies that three chapters are missing from cosmere_chapters.json (the file used by True Random). I do not have the time or patience right now to look for those, but in the future I will fix the file if and when I find those chapters.
 ## Copyright and Info
 Copyright 2026, Program and Files by Lincoln C. Hanks.
 No Generative AI was used in designing, developing, or testing this program, or in creating any files used by it.
